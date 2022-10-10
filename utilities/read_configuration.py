@@ -2,7 +2,9 @@ import configparser
 import sys
 
 config = configparser.RawConfigParser()
-config.read(sys.path[0] + "\\pytest.ini")
+print('Sys Path : ', sys.path[0])
+# config.read(sys.path[0] + "\\pytest.ini")
+config.read("/home/brahma/python_works/selenium-python-framework/pytest.ini")
 
 
 class ReadConfiguration:

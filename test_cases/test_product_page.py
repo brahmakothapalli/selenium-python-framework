@@ -20,3 +20,4 @@ class TestProductPage:
             print("Product added successfully to the car")
         else:
             print("Failed to add the product to the cart")
+        driver.quit()

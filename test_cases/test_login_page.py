@@ -15,3 +15,4 @@ class TestLoginPage:
         login_page = LoginPageObjects(driver)
         login_page.enter_user_credentials(self.user_name, self.password)
         login_page.click_login_button()
+        driver.quit()
